@@ -1,6 +1,6 @@
 {
   "name": "closest-ratio",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Picks the closest ratio to a supplied target from a list of defaults or supplied options",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,20 @@
   },
   "homepage": "https://github.com/abcnews/closest-ratio#readme",
   "devDependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "babelify": "^7.2.0",
     "mocha": "^3.1.2"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
   }
 }
