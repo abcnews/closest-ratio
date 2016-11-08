@@ -1,6 +1,6 @@
 {
   "name": "closest-ratio",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Picks the closest ratio to a supplied target from a list of defaults or supplied options",
   "main": "index.js",
   "scripts": {
