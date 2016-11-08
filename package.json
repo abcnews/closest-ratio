@@ -1,0 +1,25 @@
+{
+  "name": "closest-ratio",
+  "version": "1.0.0",
+  "description": "Picks the closest ratio to a supplied target from a list of defaults or supplied options",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abcnews/closest-ratio.git"
+  },
+  "keywords": [
+    "ratio"
+  ],
+  "author": "Simon Elvery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abcnews/closest-ratio/issues"
+  },
+  "homepage": "https://github.com/abcnews/closest-ratio#readme",
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  }
+}
